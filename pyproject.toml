@@ -1,0 +1,22 @@
+# Donkey Bridge — project metadata.
+# The build backend is intentionally omitted until the implementation lands;
+# this file pins the identity so the name is reserved and documented.
+
+[project]
+name = "donkeybridge"
+version = "0.1.0"
+description = "Eselsbrücke memory for AI agents — acronyms in the context window, full payloads asleep on SSD. Zero dependencies."
+readme = "README.md"
+requires-python = ">=3.10"
+# license and authors: fill in before the first release
+# (add the LICENSE file and an authors entry at the same time)
+
+[project.urls]
+# Homepage = "https://github.com/<YOUR-USERNAME>/donkey-bridge"   # fill after repo creation
+# Issues   = "https://github.com/<YOUR-USERNAME>/donkey-bridge/issues"
+
+# CLI entry point — enable together with the implementation:
+# [project.scripts]
+# dkb = "donkeybridge.cli:main"
+
+dev_dependencies = []  # kept empty on purpose; tests use stdlib unittest or pytest at dev time
