@@ -16,7 +16,7 @@ Homepage = "https://github.com/amfitrite/donkey-bridge"
 Issues   = "https://github.com/amfitrite/donkey-bridge/issues"
 
 # CLI entry point — enable together with the implementation:
-# [project.scripts]
-# dkb = "donkeybridge.cli:main"
+[project.scripts]
+dkb = "donkeybridge.cli:main"
 
 dev_dependencies = []  # kept empty on purpose; tests use stdlib unittest or pytest at dev time
